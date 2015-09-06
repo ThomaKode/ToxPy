@@ -15,11 +15,11 @@ The application can be launched using the command
 <code>Malware.py</code> or similar, in the directory
  to which it was downloaded.
 **Example** 
-            <code>&/$Path_to\& == $PATH</code>
+            <code>&/$Path_to\& == $PATH = <path></code>
             <code>./$PATH/Malware.py</code>
             
             *Note*
-For each <path> element replace with your local download
+For each <path>path</path> element replace with your local download
 ```PHP
 $PATH
 ```
