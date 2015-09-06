@@ -19,7 +19,7 @@ The application can be launched using the command
             <code>./$PATH/Malware.py</code>
             
             *Note* for each <path> element replace with your local download
-''''PHP
-   $PATH
-''''
+```PHP
+$PATH
+```
 ### What this project contains
