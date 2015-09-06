@@ -13,7 +13,8 @@ env:
 	DJANGO_VERSION '1.4.0'
 
 install:
-- if [[ $TRAVIS_PYTHON_VERSION == '2.6' ]]; then travis_retry pip_install unittest2; fi
-- if [[ $TRAVIS_PYTHON_VERSION == * && $DEPS == true ]]; then travis_retry pip install for future pacakges Monotime==1.0 trollius; fi
-- if [[ $TRAVIS_PYTHON_VERSION == '2.7' ]]; travis_retry pip install singledispatch; fi
-- if [[ $TRAVIS_PYTHON_VERSION == 'pypy && $DEPS == true ]]']]; then travis_retry pip install futures singledispatch; fi
+	- if [[ $TRAVIS_PYTHON_VERSION == '2.6' ]]; then travis_retry pip_install unittest2; fi
+	- if [[ $TRAVIS_PYTHON_VERSION == * && $DEPS == true ]]; then travis_retry pip install for future pacakges Monotime==1.0 trollius; fi
+	- if [[ $TRAVIS_PYTHON_VERSION == '2.7' ]]; travis_retry pip install singledispatch; fi
+	- if [[ $TRAVIS_PYTHON_VERSION == 'pypy && $DEPS == true ]]']]; then travis_retry pip install futures singledispatch; fi
+	# TODO(bdarnell): pycares tests are currently disabled on travis due to ipv6 issues
