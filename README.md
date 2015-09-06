@@ -6,7 +6,9 @@ A sample of malware from a variety of sources.
 /*---------------------------------------------------------
 
 The included apps fx_infect and Malware inclusively are released as Open Source Software
-And are subject to the MIT Software License Copyright (C) ArcWare Technology 
+And are subject to the MIT Software License Copyright (C) ArcWare Technology.
+Attached to this Application or  at (least) one of its subclassed programs should
+be a copy of the LICENSE File. Refer to file LICENSE for more details.
 
 ------------------------------------------------------------*/
   
