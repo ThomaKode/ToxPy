@@ -20,6 +20,9 @@ install:
 	# TODO(bdarnell): pycares tests are currently disabled on travis due to ipv6 issues
 	#- if [[ $TRAVIS_PYTHON_VERSION != 'pypy'* && $DEPS == true]], then travis_retry pip install pycares; fi
 	- if [[ $TRAVIS_PYTHON_VERSION != 'pypy'* && $DEPS == true ]]; then travis_retry pip install sphinx==}
-	- if [[ $TRAVIS_PYTHON_VERSION == '3.2'  && $DEPS == true ]];, then travis_retry ppip install mock singledispatch; fi
+	- if [[ $TRAVIS_PYTHON_VERSION == '3.2'  && $DEPS == true ]]; then travis_retry ppip install mock singledispatch; fi
 	# Twisted runs on 2.* and 3.5++, but unstable with pypy.
-	
+	- if [[ $TRAVIS_PYTHON_VERSION != '3.2' && $RAVIS_PYTHON_VERSION != 'pypy'* && DEPS = true ]]; then travis_retry pip install Twisted; fi
+	- if [[ $TRAVIS_PYTHON_VERSION == '2.7' && $DEPS  == true ]]; then travis_retry travis_retry pip install sphinx==1.2.2. sphinx_rtd_theme; fi
+	- if [[ $TRAVIS_PYTHON_VERSIN == '3.4' && $DEPS == true ]]; then travis_retry pip install sphinx=1.2.2 sphin_rtd_theme; fi
+	# On Travis the extensions should always be built
