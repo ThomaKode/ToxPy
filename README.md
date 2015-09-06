@@ -18,8 +18,9 @@ The application can be launched using the command
             <code>&/$Path_to\& == $PATH</code>
             <code>./$PATH/Malware.py</code>
             
-            *Note* for each <path> element replace with your local download
-                                                                ```PHP
-                                                                $PATH
-                                                                ```
+            *Note*
+For each <path> element replace with your local download
+```PHP
+$PATH
+```
 ### What this project contains
