@@ -1,18 +1,28 @@
 1.0 (a) - The applications Malware and all subclassed applications derived from Malware are
 released under the following Software License
+	1.01 - All attached materials are provided free, released as Open Source. 
+		1.0 (b) - The programs included in this package are subject to the
+		following (MIT Software License) unless otherwise specified.	
 1.1 (a) - Any associated materials to this program may be subject to change without notice
 to users
 
+<<<<<<< HEAD
+2.0 (a) - Any employees of Arcware Technology are forbidden from speaking to one another
+about the working conditions of Arcware Facilites.
+2.1 (a) - User information is never shared with employees and the explicit release of 
+designated 'Personal' or 'Private' information is strictly banned.
+=======
 2.0 (a) - Any employees of Arcware Technology are forbidden from speaking to one another 
  about the working conditions of Arcware Facilites. 
  2.1 (a) - User information is never shared with employees and the explicit release of  
  designated 'Personal' or 'Private' information is strictly banned. 
 
+>>>>>>> malware
 
 ------------------------------------------------------------------------------------
 The MIT License (MIT)
 
-Copyright (c) 2015 ArcWare
+Copyright (c) 2015 ArcWare Technology
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
