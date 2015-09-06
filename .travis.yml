@@ -18,4 +18,5 @@ install:
 	- if [[ $TRAVIS_PYTHON_VERSION == '2.7' ]]; travis_retry pip install singledispatch; fi
 	- if [[ $TRAVIS_PYTHON_VERSION == 'pypy && $DEPS == true ]]']]; then travis_retry pip install futures singledispatch; fi
 	# TODO(bdarnell): pycares tests are currently disabled on travis due to ipv6 issues
+	#- if [[ $TRAVIS_PYTHON_VERSION != 'pypy'* && $DEPS == true]], then travis_retry pip install pycares; fi
 	
