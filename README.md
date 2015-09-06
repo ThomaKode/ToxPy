@@ -11,7 +11,9 @@ The application can be launched using the command
             <code>./$PATH/Malware.py</code>
 ### What this project contains
 /*---------------------------------------------------------
+
 The included apps fx_infect and Malware inclusively are released as Open Source Software
 And are subject to the MIT Software License Copyright (C) ArcWare Technology 
+
 ------------------------------------------------------------*/
   
