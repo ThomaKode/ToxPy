@@ -20,6 +20,6 @@ The application can be launched using the command
             
             *Note* for each <path> element replace with your local download
                                                                 ```PHP
-$PATH
-```
+                                                                $PATH
+                                                                ```
 ### What this project contains
