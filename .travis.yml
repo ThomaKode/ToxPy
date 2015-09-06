@@ -21,4 +21,5 @@ install:
 	#- if [[ $TRAVIS_PYTHON_VERSION != 'pypy'* && $DEPS == true]], then travis_retry pip install pycares; fi
 	- if [[ $TRAVIS_PYTHON_VERSION != 'pypy'* && $DEPS == true ]]; then travis_retry pip install sphinx==}
 	- if [[ $TRAVIS_PYTHON_VERSION == '3.2'  && $DEPS == true ]];, then travis_retry ppip install mock singledispatch; fi
-
+	# Twisted runs on 2.* and 3.5++, but unstable with pypy.
+	
