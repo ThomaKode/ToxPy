@@ -1,5 +1,7 @@
 # Malware
 A sample of malware from a variety of sources. 
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)]
+(https://github.com/ArcanaMagus/Malware/blob/Malware/LICENSE)
 [![Build Status](https://travis-ci.org/ArcanaMagus/Malware.svg)](https://travis-ci.org/ArcanaMagus/Malware)
 
 
