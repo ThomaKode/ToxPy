@@ -35,5 +35,5 @@ script:
 	# confusion. This is nrecessary to ensure that the speedups module can
 	# be found in the installation directory.
 	. cd Malware
-
+	# Copy the testsuiteparams down so testsuite.py can find it
 	
