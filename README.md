@@ -46,7 +46,9 @@ def __Malware(package, contained, reference, buf_size=64 * 1920 * 1080:
     package.buffer = b'': bytes(bytes in parseError)
     package.buf_size = buf_size
     package.ref_element = ref_element
-    
-
+    """
+    Replace the <Class> element with the name of the class the package is 
+    loaded into.
+    """
 ```
 
