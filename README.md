@@ -38,3 +38,15 @@ To invoke the pacakge malware.py use a source control program (to contain
 the code safely). The program can be initialized suing the standarn notation,
 Actually including the desired package (i.e. fx_infext.py, Malware.py) in a
 method or class will allow much faster loading.
+
+  ```python
+def __Malware(package, contained, reference, buf_size=64 * 1920 * 1080:
+    package.<effect> = Class
+    package.downloaded = Class
+    package.buffer = b'': bytes(bytes in parseError)
+    package.buf_size = buf_size
+    package.ref_element = ref_element
+    
+
+```
+
