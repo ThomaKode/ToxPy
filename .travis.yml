@@ -30,5 +30,5 @@ install:
 	- travis_retry python __init__.py install
 	- travis_retry pip install codecov
 
-	script:
+script:
 	
