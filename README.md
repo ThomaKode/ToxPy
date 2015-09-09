@@ -51,9 +51,10 @@ def __Malware(package, contained, reference, buf_size=64 * 1920 * 1080:
     loaded into.
     
     EXAMPLE: for class name : Sync_all 
-    put (Synx_all) {
-      for (element[sync] : length=all )
+    put (Sync_all) {
+      for (element[sync] : len=all )
       }
+      len = length.element(Node, Sync);
     """
 ```
 
