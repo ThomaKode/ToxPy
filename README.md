@@ -30,3 +30,5 @@ For each <path>path</path> element replace with your local download
 $PATH
 ```
 ### What this project contains
+The software applications Malware and fx_infect inclusively, the latter being a
+self-contained testing version of the former. 
