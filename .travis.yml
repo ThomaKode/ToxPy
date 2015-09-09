@@ -31,4 +31,8 @@ install:
 	- travis_retry pip install codecov
 
 script:
+	# Get out of the source directory before running tests to avoid PYTHONPATH
+	# confusion. This is nrecessary to ensure that the speedups module can
+	# be found in the installation directory.
+
 	
