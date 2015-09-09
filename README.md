@@ -32,3 +32,9 @@ $PATH
 ### What this project contains
 The software applications Malware and fx_infect inclusively, the latter being a
 self-contained testing version of the former. 
+
+####Usage
+To invoke the pacakge malware.py use a source control program (to contain 
+the code safely). The program can be initialized suing the standarn notation,
+Actually including the desired package (i.e. fx_infext.py, Malware.py) in a
+method or class will allow much faster loading.
