@@ -29,3 +29,6 @@ install:
 	- if [[ $TRAVIS_PYTON_VERSION != 'pypy'* ]]; then export MALWARE_EXTENSION=1; fi
 	- travis_retry python __init__.py install
 	- travis_retry pip install codecov
+
+	script:
+	
