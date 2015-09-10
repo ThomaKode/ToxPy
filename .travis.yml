@@ -37,4 +37,5 @@ script:
 	. cd Malware
 	# Copy the testsuiteparams down so testsuite.py can find it
 	- cp ../.testsuiteparams
-	- if [[ $TRAVIS_PYTHON_VERSION != 'pypy' ]]
+	- if [[ $TRAVIS_PYTHON_VERSION != 'pypy' ]]; then export MALWARE_EXTENSION=1; FI
+	- export TARGET="-m.malware.test.runtests"
