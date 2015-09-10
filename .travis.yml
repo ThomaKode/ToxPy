@@ -36,4 +36,5 @@ script:
 	# be found in the installation directory.
 	. cd Malware
 	# Copy the testsuiteparams down so testsuite.py can find it
-	
+	- cp ../.testsuiteparams
+	- if [[ $TRAVIS_PYTHON_VERSION != 'pypy' ]]
