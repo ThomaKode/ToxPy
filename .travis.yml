@@ -26,3 +26,14 @@ install:
 	- if [[ $TRAVIS_PYTHON_VERSION == '2.7' && $DEPS  == true ]]; then travis_retry travis_retry pip install sphinx==1.2.2. sphinx_rtd_theme; fi
 	- if [[ $TRAVIS_PYTHON_VERSIN == '3.4' && $DEPS == true ]]; then travis_retry pip install sphinx=1.2.2 sphin_rtd_theme; fi
 	# On Travis the extensions should always be built
+	- if [[ $TRAVIS_PYTON_VERSION != 'pypy'* ]]; then export MALWARE_EXTENSION=1; fi
+	- travis_retry python __init__.py install
+	- travis_retry pip install codecov
+
+script:
+	# Get out of the source directory before running tests to avoid PYTHONPATH
+	# confusion. This is nrecessary to ensure that the speedups module can
+	# be found in the installation directory.
+	. cd Malware
+	# Copy the testsuiteparams down so testsuite.py can find it
+	
