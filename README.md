@@ -30,3 +30,31 @@ For each <path>path</path> element replace with your local download
 $PATH
 ```
 ### What this project contains
+The software applications Malware and fx_infect inclusively, the latter being a
+self-contained testing version of the former. 
+
+####Usage
+To invoke the package malware.py use a source control program (to contain 
+the code safely). The program can be initialized suing the standarn notation,
+Actually including the desired package (i.e. fx_infext.py, Malware.py) in a
+method or class will allow much faster loading.
+
+  ```python
+def __Malware(package, contained, reference, buf_size=64 * 1920 * 1080:
+    package.<effect> = Class
+    package.downloaded = Class
+    package.buffer = b'': bytes(bytes in parseError)
+    package.buf_size = buf_size
+    package.ref_element = ref_element
+    """
+    Replace the <Class> element with the name of the class the package is 
+    loaded into.
+    
+    EXAMPLE: for class name : Sync_all 
+    put (Sync_all) {
+      for (element[sync] : len=all )
+      }
+      len = length.element(Node, Sync);
+    """
+```
+
