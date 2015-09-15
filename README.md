@@ -53,7 +53,17 @@ Get Particular Process Id( i.e. Process ID on Malware Online)
     # >>> pid.Arkana
     # 654747
       
-      
+Updates, Attacks, Logs, Call Tree info are similar to objects thus
+they can be called by object/process id. To get data on an object by id.
+
+    object = ml.get_object(8&6!)
+    # >>> object.title
+    # 'Example App: VisualStudio : lorem ipsum"
+    # >>> object.type
+    # update
+    # >>> object.child
+    # [ $1024, $1025, $1026, $1027, ...]
+        
 ## Offensive Exploits
 The application can be launched using the command
 <code>Malware.py</code> or similar, in the directory
