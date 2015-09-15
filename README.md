@@ -63,6 +63,18 @@ they can be called by object/process id. To get data on an object by id.
     # update
     # >>> object.child
     # [ $1024, $1025, $1026, $1027, ...]
+    
+To get object ids for current top updates
+    
+    top_update_ids = ml.top_updates()
+    # >>> top_update_ids
+    # [ $6324785, $6324786, $6324787, ...]
+    
+To get current greatest size (object id):
+
+    max_object = ml.get_max_object()
+    # >>> max_object
+    # $789652
         
 ## Offensive Exploits
 The application can be launched using the command
