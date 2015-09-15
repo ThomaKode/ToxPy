@@ -5,7 +5,7 @@ A sample of malware from a variety of sources.
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)]
 (https://github.com/ArcanaMagus/Malware/blob/Malware/LICENSE)
 [![Build Status](https://travis-ci.org/ArcanaMagus/Malware.svg)](https://travis-ci.org/ArcanaMagus/Malware)
-
+[![Coverage Status](https://coveralls.io/repos/ArcanaMagus/Malware/badge.svg?branch=malware&service=github)](https://coveralls.io/github/ArcanaMagus/Malware?branch=malware)
 
 /*---------------------------------------------------------
 
