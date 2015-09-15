@@ -28,6 +28,14 @@ Import and Initialization
   
     from malware import Malware
     ml - Malware()
+    
+Get Particular Process Id( i.e. Process ID on Malware Online)    
+
+    pid = ml.get_pid('png')
+    # >>> pid.process_id
+    # png
+    # >>> pid.Arkana
+    # 654747
       
       
 ## Offensive Exploits
