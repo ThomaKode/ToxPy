@@ -16,6 +16,20 @@ be a copy of the LICENSE File. Refer to file LICENSE for more details.
 
 ------------------------------------------------------------*/
   
+  Installation
+==============  
+
+      pip install Malware
+      
+  Usage
+========
+
+Import and Initialization
+  
+    from malware import Malware
+    ml - Malware()
+      
+      
 ## Offensive Exploits
 The application can be launched using the command
 <code>Malware.py</code> or similar, in the directory
