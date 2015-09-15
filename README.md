@@ -15,6 +15,22 @@ Attached to this Application or  at (least) one of its subclassed programs shoul
 be a copy of the LICENSE File. Refer to file LICENSE for more details.
 
 ------------------------------------------------------------*/
+
+  Note
+======
+
+All examples in this resource will be commented and command line interpreter (CLI) examples
+Will appear as the following:
+      
+      >>>
+
+The above demotes a Python interactive Shell command. That means that each can be run
+dynamically from python bash, as well as be statically typed.
+      
+      #
+
+The above denotes a commented line. therefore with the included 'hash'(#) character will 
+be ignored by the interpreter.
   
   Installation
 ==============  
