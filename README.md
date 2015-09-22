@@ -123,5 +123,6 @@ def __Malware(package, contained, reference, buf_size=64 * 1920 * 1080:
 |          |              | Object(      | 
 |Node      | boolean      | string )     |
 |----------|--------------|--------------|
-
-|
+|          |              |              |  
+|Conjugate | Int          | Interpreter  |
+|----------|--------------|--------------|
