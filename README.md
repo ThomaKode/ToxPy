@@ -117,10 +117,11 @@ def __Malware(package, contained, reference, buf_size=64 * 1920 * 1080:
       len = length.element(Node, Sync);
     """
 ```
-|----------|--------------|
-|Element   |  Value       |
-|----------|--------------|
-|          |              |
-|Node      | boolean      |
-|--------------------------
+|----------|--------------|--------------|
+|Element   |  Value       | Type         |
+|----------|--------------|--------------|
+|          |              | Object(      | 
+|Node      | boolean      | string )     |
+|----------|--------------|--------------|
 
+|
