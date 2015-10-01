@@ -39,3 +39,6 @@ script:
 	- cp ../.testsuiteparams
 	- if [[ $TRAVIS_PYTHON_VERSION != 'pypy' ]]; then export MALWARE_EXTENSION=1; FI
 	- export TARGET="-m.malware.test.runtests"
+addons:
+   code_climate:
+        repo_token: b615e05dc7f6b1d7190368b01b7db551ee369dfd5c41411365ab6576d9c5ac86
